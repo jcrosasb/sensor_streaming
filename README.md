@@ -41,6 +41,7 @@ You may run the notebooks and the scripts from Jupyterlab
 ## Instructions for running scripts
 To run any of the scripts, you firt need to run:
 > conda install -c conda-forge python-confluent-kafka --yes
+
 from the command line to install Confluent Kafka.
 
 To run `producer.py`, you will need to give the following arguments:
