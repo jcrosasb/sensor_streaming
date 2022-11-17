@@ -40,7 +40,7 @@ You may run the notebooks and the scripts from Jupyterlab
 
 ## Instructions for running scripts
 
-To run 'consumer.py', you will need to specify
+To run `consumer.py`, you will need to specify
 
 
 
