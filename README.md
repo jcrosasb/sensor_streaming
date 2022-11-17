@@ -41,7 +41,7 @@ You may run the notebooks and the scripts from Jupyterlab
 ## Instructions for running scripts
 
 To run `producer.py`, you will need to give the following arguments:
-1. File 'input.ini', which contains information such as the port for the bootstrap servers and the group ID.
+1. File `input.ini`, which contains information such as the port for the bootstrap servers and the group ID.
 2. The name of the topic, which has to be the tag for one of the parquet files (lidarOut, lidarIn, S1, S2, cart1Floor, cart1Top, cart2, cart4x, speedoA, speedoB, speedoC, or m1, m2, ..., m7).
 3. The size of the batch from the parquet file to be read.
 
