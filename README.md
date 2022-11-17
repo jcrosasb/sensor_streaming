@@ -30,8 +30,10 @@ To run it, please do:
 
 After this, you may open the browser and type
 > localhost:8888/lab?token=intekglobal123
+
 to open Jupyterlab, and
 > localhot:9000
+
 to open Kafdrop
 
 
