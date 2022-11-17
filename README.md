@@ -23,10 +23,10 @@ Each of these notebooks has the solutions for Exercise 1 found in https://docs.g
 For Exercise 2, the directory "scripts" has the following files:
 1. consumer.py
 2. producer.py
-3. input.ini, containing 
+3. input.ini 
 
 To run it, please do:
-> docker-compose up -d
+> docker-compose up -d --build
 
 After this, you may open the browser and type
 > localhost:8888/lab?token=intekglobal123
@@ -40,7 +40,11 @@ You may run the notebooks and the scripts from Jupyterlab
 
 ## Instructions for running scripts
 
-To run `consumer.py`, you will need to specify
+To run `consumer.py`, you will need to give the following arguments:
+1. File 'input.ini', which contains information such as the port for the bootstrap servers and the group ID.
+2. The name of the topic, which has to be the tag for one of the parquet files (lidarOut, lidarIn, S1, S2, cart1Floor, cart1Top, cart2, cart4x, speedoA, speedoB, speedoC, or m1, m2, ..., m7).
+3. The size of the batch from the parquet file to be read.
+
 
 
 
