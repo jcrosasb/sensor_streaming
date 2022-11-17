@@ -46,6 +46,6 @@ To run `producer.py`, you will need to give the following arguments:
 3. The size of the batch from the parquet file to be read.
 
 For example, suppose you want to send the first 100 lines of the file `202201W1-lidarOut.parquet`. Then you have to type the following from the command line:
-> python3 producer.py input.ini lidarOut 100
+> >> python3 producer.py input.ini lidarOut 100
 
 
