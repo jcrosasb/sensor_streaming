@@ -32,9 +32,13 @@ After this, you may open the browser and type
 > localhost:8888/lab?token=intekglobal123
 
 to open Jupyterlab, and
-> localhot:9000
+> localhost:9000
 
 to open Kafdrop
+
+You may run the notebooks and the scripts from Jupyterlab
+
+##Instructions for runninf scripts
 
 
 
