@@ -12,12 +12,6 @@ and the following directories:
 
 Before running anything, put the parquet files from sensor project (https://drive.google.com/drive/u/0/folders/1B5D3mKSEIMdRjIpap-Tg-RX2ZaI6HnrP) inside directory "data/raw".
 
-The directory "notebooks" contains the following notebooks:
-1. eda_model_cart.ipynb
-2. eda_model_lidar.ipynb
-3. eda_model_m.ipynb
-4. eda_model_speedo.ipynb
-
 To run the containers, please do:
 > docker-compose up -d --build
 
@@ -27,11 +21,17 @@ After this, you may open the browser and type
 to open Jupyterlab, and
 > localhost:9000
 
-to open Kafdrop
+to open Kafdrop.
 
-You may run the notebooks and the scripts from Jupyterlab
+You may run the notebooks and the scripts from Jupyterlab.
 
 # Exercise 1
+
+The directory "notebooks" contains the following notebooks:
+1. eda_model_cart.ipynb
+2. eda_model_lidar.ipynb
+3. eda_model_m.ipynb
+4. eda_model_speedo.ipynb
 
 Each of these notebooks has the solutions for Exercise 1 found in https://docs.google.com/document/d/1xdPnT4kceF9VKYDTvORRGx-TC3JAJAi0/edit
 
