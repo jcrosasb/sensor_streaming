@@ -23,7 +23,7 @@ Each of these notebooks has the solutions for Exercise 1 found in https://docs.g
 For Exercise 2, the directory "scripts" has the following files:
 1. consumer.py
 2. producer.py
-3. input.ini
+3. input.ini, containing 
 
 To run it, please do:
 > docker-compose up -d
@@ -38,7 +38,9 @@ to open Kafdrop
 
 You may run the notebooks and the scripts from Jupyterlab
 
-##Instructions for runninf scripts
+## Instructions for running scripts
+
+To run 'consumer.py', you will need to specify
 
 
 
