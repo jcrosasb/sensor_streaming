@@ -18,14 +18,7 @@ The directory "notebooks" contains the following notebooks:
 3. eda_model_m.ipynb
 4. eda_model_speedo.ipynb
 
-Each of these notebooks has the solutions for Exercise 1 found in https://docs.google.com/document/d/1xdPnT4kceF9VKYDTvORRGx-TC3JAJAi0/edit
-
-For Exercise 2, the directory "scripts" has the following files:
-1. producer.py
-2. consumer.py
-3. input.ini 
-
-To run it, please do:
+To run the containers, please do:
 > docker-compose up -d --build
 
 After this, you may open the browser and type
@@ -37,6 +30,17 @@ to open Jupyterlab, and
 to open Kafdrop
 
 You may run the notebooks and the scripts from Jupyterlab
+
+# Exercise 1
+
+Each of these notebooks has the solutions for Exercise 1 found in https://docs.google.com/document/d/1xdPnT4kceF9VKYDTvORRGx-TC3JAJAi0/edit
+
+For Exercise 2, the directory "scripts" has the following files:
+1. producer.py
+2. consumer.py
+3. input.ini 
+
+# Exercise 2
 
 ## Instructions for running scripts
 To run any of the scripts, you firt need to run:
